@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="flex flex-col pb-xl md:flex-row md:my-[80px] md:mx-auto md:w-[650px] md:shadow-md md:rounded-3xl">
+        <div class=" bg-lightSlateB rounded-b-3xl p-8 md:rounded-3xl">
+            <h2 class="text-center text-lg text-lightLavender">Your Result</h2>
+            <div
+                class="h-28 w-28 bg-gradient-to-t from-persianBlueC to-violetBlueC rounded-full p-8 text-center mx-auto mt-4">
+                <h1 class="text-white text-5xl font-black">76</h1>
+                <p class="text-lightLavender text-sm">of 100</p>
+            </div>
+            <h3 class="text-white font-extrabold mt-6 text-lg text-center md:mt-8">Great</h3>
+            <p class="text-center text-lightLavender text-sm w-[250px] mx-auto">You scored higher than 65% of the people
+                who have taken these tests.</p>
+        </div>
+        <div class="p-8 md:w-[320px]">
+            <h4 class="font-bold text-darkGreyB">Summary</h4>
+            <div class="summary-result bg-lightRedO rounded-md mt-4 p-2 h-10 flex justify-between align-center">
+                <div class="flex justify-between align-center">
+                    <img src="../src/assets/images/icon-reaction.svg" alt="" class="w-8">
+                    <p class="text-lightRed text-sm font-semibold ml-4">Reaction</p>
+                </div>
+                <div class="text-darkGreyB text-sm">80 <span class="text-lightLavender"> / 100</span></div>
+            </div>
+            <div class="summary-result bg-orangeYellowO rounded-md mt-4 p-2 h-10 flex justify-between align-center">
+                <div class="flex justify-between align-center">
+                    <img src="../src/assets/images/icon-memory.svg" alt="" class="w-8">
+                    <p class="text-orangeYellow text-sm font-semibold ml-4">Memory</p>
+                </div>
+                <div class="text-darkGreyB text-sm">92 <span class="text-lightLavender"> / 100</span></div>
+            </div>
+            <div class="summary-result bg-greenTealO rounded-md mt-4 p-2 h-10 flex justify-between align-center">
+                <div class="flex justify-between align-center">
+                    <img src="../src/assets/images/icon-verbal.svg" alt="" class="w-8">
+                    <p class="text-greenTeal text-sm font-semibold ml-4">Verbal</p>
+                </div>
+                <div class="text-darkGreyB text-sm">62 <span class="text-lightLavender"> / 100</span></div>
+            </div>
+            <div class="summary-result bg-cobaltBlueO rounded-md mt-4 p-2 h-10 flex justify-between align-center">
+                <div class="flex justify-between align-center">
+                    <img src="../src/assets/images/icon-visual.svg" alt="" class="w-8">
+                    <p class="text-cobaltBlue text-sm font-semibold ml-4">Visual</p>
+                </div>
+                <div class="text-darkGreyB text-sm">80 <span class="text-lightLavender"> / 100</span></div>
+            </div>
+
+            <button
+                class="w-full h-14 p-4 rounded-full text-white bg-darkGreyB hover:bg-lightRoyalB flex justify-center align-center mt-8 transition">Continue</button>
+
+        </div>
+    </div>
+
+
+
+    <div class=" attribution">
+        Challenge by <a href=" https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/JerryJeager">Amadi Jerry</a>.
+    </div>
+</body>
+
+</html>
